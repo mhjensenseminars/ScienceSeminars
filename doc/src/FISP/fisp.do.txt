@@ -12,9 +12,9 @@ _The aim is to lay the foundation for the development of new
 activities in Computational Science and Physics at the University of Oslo, with a strong focus on
 computational technologies for the future, from quantum computing to machine learning._   
 
-o The proposed  activities are expected to lead to an application  for a future center of excellence (The Norwegian SFF program) in Computational Physics and Science application, _Computing Across the Disciplines_, where focus on new computational approaches for studying complex systems will play a central role. 
+o The proposed  activities are expected to lead to an application  for a future center of excellence (The Norwegian SFF program) in Computational Physics and Science application, _Computing Across the Disciplines_, where focus on new computational approaches for studying complex systems will play a central role
 
-o Establish an educational Marie-Curie training program on Computational Science and Physics,
+o Establish an educational Marie-Curie training program on Computational Science and Physics
 
 o Strong links with the newly established center of excellence in education, Center for Computing in Science Education
 
