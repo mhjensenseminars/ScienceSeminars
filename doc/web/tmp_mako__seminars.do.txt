@@ -21,15 +21,15 @@ AUTHOR: "Morten Hjorth-Jensen":"http://mhjgit.github.io/info/doc/web/" at Depart
 
  * LaTeX PDF:
    * For printing:
-     * "Standard one-page format": " http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/pdf/fisp-minted.pdf"
+     * "Standard one-page format": "http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/pdf/fisp-minted.pdf"
    * For screen viewing:
-     * "standard Beamer format": " http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/pdf/fisp-beamer.pdf"
+     * "standard Beamer format": "http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/pdf/fisp-beamer.pdf"
  * HTML:
-   * "Plain html": " http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/html/fisp.html"
-   * "reveal.js beige slide style": " http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/html/fisp-reveal.html"
-   * "Bootstrap  slide style, easy for reading on mobile devices": " http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/html/fisp-bs.html"
+   * "Plain html": "http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/html/fisp.html"
+   * "reveal.js beige slide style": "http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/html/fisp-reveal.html"
+   * "Bootstrap  slide style, easy for reading on mobile devices": "http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/html/fisp-bs.html"
  * iPython notebook:
-   * "ipynb file": " http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/ipynb/fisp.ipynb"
+   * "ipynb file": "http://mhjensenseminars.github.io/ScienceSeminars/doc/pub/fisp/ipynb/fisp.ipynb"
 
 
 

@@ -1,23 +1,18 @@
 # Strange way of testing for vortex...
 # #ifdef NON_VORTEX
-TITLE: Overview of course material: Computational Physics
+TITLE: Overview
 
 TOC: off
 # #else
-TITLE: Overview of course material: Data Analysis and Machine Learning
+TITLE: Overview of seminars
 AUTHOR: "Morten Hjorth-Jensen":"http://mhjgit.github.io/info/doc/web/" at Department of Physics and Astronomy and National Superconducting Cyclotron Laboratory, Michigan State University, USA &  Department of Physics, University of Oslo, Norway
 # #endif
 
 <%
-pub_url = 'https://compphysics.github.io/MachineLearning/doc/pub'
-published = ['How2ReadData', 'Statistics', 'Regression', 'Bayesian', 'DecisionTrees', 'NeuralNet',]
+pub_url = ' http://mhjensenseminars.github.io/ScienceSeminars/doc/pub'
+published = ['fisp',]
 chapters = {
- 'How2ReadData': 'Introduction and  handling of  data',
- 'Statistics': 'Monte Carlo methods and elements of probability theory',
- 'Regression': 'Linear regression and beyond',
- 'Bayesian': 'Elements of Bayesian theory',
- 'DecisionTrees': 'Decision trees, from simple to random ones',
- 'NeuralNet': 'Neural Networks',
+ 'fisp': 'From Quantum Computing to Machine Learning',
 }
 %>
 
@@ -43,21 +38,6 @@ chapters = {
 <%def name="slide_types(name)">
 </%def>
 
-The teaching material is produced in various formats for printing and on-screen reading.
-
-!split
-!bwarning
-The PDF files are based on LaTeX and have seldom technical
-failures that cannot be easily corrected.
-The HTML-based files, called ``HTML'' and ``ipynb'' below, apply MathJax
-for rendering LaTeX formulas and sometimes this technology gives rise
-to unexpected failures (e.g.,
-incorrect rendering in a web page despite correct LaTeX syntax in the
-formula). Consult the corresponding PDF
-files if you find missing or incorrectly rendered
-formulas in HTML or ipython notebook files.
-!ewarning
-
 
 
 
@@ -67,104 +47,6 @@ formulas in HTML or ipython notebook files.
 ${text_types(ch)}
 
 % endfor
-
-
-!split
-===== New for  Fall 2017: teach yourself C++ =====
- * HTML format only:
-   * "Bootstrap  slide style, easy for reading on mobile devices": "http://compphysics.github.io/ComputationalPhysics/doc/pub/learningcpp/html/learningcpp-bs.html"
-
-
-!split
-===== Projects Fall 2017 =====
-
-=== Project ===
- * LaTeX and PDF:
-     * "LaTex file":"http://compphysics.github.io/MachineLearning/doc/Projects/2017/Project/pdf/Project.tex"
-     * "PDF file":"http://compphysics.github.io/MachineLearning/doc/Projects/2017/Project/pdf/Project.pdf"
- * HTML:
-   * "Plain html":"http://compphysics.github.io/MachineLearning/doc/Projects/2017/Project/html/Project.html"
-   * "Bootstrap  slide style, easy for reading on mobile devices": "http://compphysics.github.io/MachineLearning/doc/Projects/2017/Project/html/Project-bs.html"
-
-
-=== Course content ===
-
-Probability theory and statistical methods play a central role in science. Nowadays we are
-surrounded by huge amounts of data. For example, there are about one trillion web pages; more than one
-hour of video is uploaded to YouTube every second, amounting to 10 years of content every
-day; the genomes of 1000s of people, each of which has a length of $3.8\times 10^9$ base pairs, have
-been sequenced by various labs and so on.
-This deluge of data calls for automated methods of data analysis,
-which is exactly what machine
-learning provides. In this course the approach is to define machine learning as a set of methods that can
-automatically detect patterns in data, and then use the uncovered patterns to predict future
-data, or to perform other kinds of decision making under uncertainty. Since many of these problems can be studied using
-tools of probability theory, the aim of this course is to expose you to central methods in probability theory linked with machine learning.
-
-This course covers thus topics like Monte Carlo methods and Markov chains, Bayesian statistics, error estimates, various linear methods, optimization of data and error analysis and central algorithms in machine learning.
-The course has several numerical projects and numerical exercises that are meant to illustrate the theory.
-
-
-
-===== Learning outcomes =====
-
-The course introduces a variety of central algorithms and methods
-essential for studies of data analysis and machine learning. The course is project based and through the various projects, normally three, the students will be exposed to fundamental research problems in these fields, with the aim to reproduce state of the art scientific results. The students will learn to develop and structure large codes for studying these systems, get acquainted with computing facilities and learn to handle large scientific projects. A good scientific and ethical conduct is emphasized throughout the course. More specifically, after this course you will
-
-* Learn about basic data analysis, Bayesian statistics, Monte Carlo methods, data optimization and machine learning;
-* Be capable of extending the acquired knowledge to other systems and cases;
-* Have an understanding of central algorithms used in data analysis and machine learning;
-* Have a basic knowledge of Bayesian statistics  and learning and common distributions;
-* Gain knowledge of central aspects of Monte Carlo methods, Markov chains, Gibbs samplers and their possible applications, from numerical integration to simulation of stock markets;
-* Understand linear methods for regression and classification;
-* Learn about neural network, genetic algorithms and Boltzmann machines;
-* Work on numerical projects to illustrate the theory. The projects play a central role and students are expected to know modern programming languages like Python or C++. 
-
-
-
-===== Prerequisites =====
-
-Basic knowledge in programming and numerics. Required courses are the equivalents to the University of Oslo mathematics courses MAT1100, MAT1110, MAT1120 and at least one of the corresponding computing and programming courses INF1000/INF1110 or MAT-INF1100/MAT-INF1100L/BIOS1100/KJM-INF1xxx. 
-
-===== The course has two central parts =====
-
-o Statistical analysis and optimization of data
-o Machine learning
-
-=== Statistical analysis and optimization of data ===
-
-The following topics will be covered
-* Basic concepts, expectation values, variance, covariance, correlation functions and errors;
-* Simpler models, binomial distribution, the Poisson distribution, simple and multivariate normal distributions;
-* Central elements of Bayesian statistics and modeling;
-* Monte Carlo methods, Markov chains, Metropolis-Hastings algorithm, ergodicity;
-* Linear methods for regression and classification;
-* Estimation of errors using blocking, bootstrapping and jackknife methods;
-* Practical optimization using Singular-value decomposition and least squares for parameterizing data.
-
-===  Machine learning ===
-
-The following topics will be covered
-* Gaussian and Dirichlet processes;
-* Boltzmann machines;
-* Neural networks;
-* Genetic algorithms.
-
-All the above topics will be supported by examples, hands-on exercises and project work.
-
-===== "Possible textbooks":"https://github.com/CompPhysics/MachineLearning/tree/master/doc/Textbooks" =====
-
-
-_General learning book on statistical analysis_:
-* Christian Robert and George Casella, Monte Carlo Statistical Methods, Springer
-* Peter Hoff, A first course in Bayesian statistical models, Springer
-
-_General Machine Learning Books_:
-* Kevin Murphy, Machine Learning: A Probabilistic Perspective, MIT Press
-* Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer
-* David J.C. MacKay, Information Theory, Inference, and Learning Algorithms, Cambridge University Press
-* Trevor Hastie, Robert Tibshirani, and Jerome Friedman, The Elements of Statistical Learning, Springer
-* David Barber, Bayesian Reasoning and Machine Learning, Cambridge University Press
 
 
 

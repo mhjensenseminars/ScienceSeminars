@@ -2,3 +2,7 @@ running preprocess -DFORMAT=html -DDEVICE=screen  seminars.do.txt > tmp_preproce
 running mako on tmp_preprocess__seminars.do.txt to make tmp_mako__seminars.do.txt
 translating doconce text in tmp_mako__seminars.do.txt to html
 output in seminars.html
+running preprocess -DFORMAT=html -DDEVICE=screen  seminars.do.txt > tmp_preprocess__seminars.do.txt
+running mako on tmp_preprocess__seminars.do.txt to make tmp_mako__seminars.do.txt
+translating doconce text in tmp_mako__seminars.do.txt to html
+output in seminars.html
