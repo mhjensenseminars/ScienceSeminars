@@ -14,8 +14,7 @@ computational technologies for the future, from quantum computing to machine lea
 
 o The proposed  activities are expected to lead to an application  for a future center of excellence (The Norwegian SFF program) in Computational Physics and Science application, _Computing Across the Disciplines_, where focus on new computational approaches for studying complex systems will play a central role. 
 
-o Establish an educational
-Marie-Curie training program on Computational Science and Physics,
+o Establish an educational Marie-Curie training program on Computational Science and Physics,
 
 o Strong links with the newly established center of excellence in education, Center for Computing in Science Education
 
@@ -48,19 +47,6 @@ molecular dynamics calculations. Such a program involves insights and collaborat
 FIGURE: [figslides/NPmultiscale.pdf, width=500 frac=0.6] The many scales pose a severe challenge to first principle  descriptions of nuclear systems. 
 !eblock
 
-!split 
-===== Mulitscale challenges in Structure Biology  ===== 
-!bblock 
-
-FIGURE: [figslides/Biologymultiscale.pdf, width=500 frac=0.6] 
-!eblock
-
-!split 
-===== Mulitscale challenges in Materials Science  ===== 
-!bblock 
-
-FIGURE: [figslides/Materialsmultiscale.pdf, width=500 frac=0.6] 
-!eblock
 
 
 
@@ -109,8 +95,7 @@ _Machine Learning_ plays nowadays a central role in the analysis of large data s
 
 o Developing activities in these frontier computational technologies is thus of strategic importance for  our capability to address future science problems.
 
-o The problems we target satisfy the dual criteria of being integral to the fundamental understanding of complex physical systems  and also compelling a major
-conceptual advance in method or theory with broad applications to other science fields. 
+o The problems we target satisfy the dual criteria of being integral to the fundamental understanding of complex physical systems  and also compelling a major conceptual advance in method or theory with broad applications to other science fields. 
 !eblock
 
 !split
@@ -121,8 +106,7 @@ conceptual advance in method or theory with broad applications to other science 
 
 * Strong educational outcomes with tight links with the newly established center of excellence in education, the _Center for Computing in Science Education_ (CCSE). 
 
-* Establishment of an educational Marie-Curie training program on Computational Science and Physics,
-with a strong focus on the above research topics. 
+* Establishment of an educational Marie-Curie training program on Computational Science and Physics, with a strong focus on the above research topics. 
 
 
 * This project will enable several research collaborations in fields like Materials Science, Condensed Matter Physics, Subatomic Physics and Life Science. 
@@ -135,10 +119,7 @@ with a strong focus on the above research topics.
 
 * This research is strongly rooted in the activities of the award winning Computational Physics group at the Department of Physics. 
 
-* We have presently several (6) excellent PhD candidates who are finalizing or have finalized
-their Master of Science theses. Many of these candidates  have applied and
-developed Machine Learning methods to solve complex and interacting
-many-particle systems. 
+* We have presently several (6) excellent PhD candidates who are finalizing or have finalized their Master of Science theses. Many of these candidates  have applied and developed Machine Learning methods to solve complex and interacting many-particle systems. We have presently 27 MSc students.
 
 * The two PIs have a long-standing experience in developing and applying algorithms for quantum mechanical and molecular dynamics simulations of many interacting particles, with applications spanning from dense subatomic matter to the physics of complex materials and life science. 
 
@@ -149,10 +130,10 @@ many-particle systems.
 !bblock
 
 The research program will focus on two main topics:
- * _Quantum Computing_ for studies of quantum mechanical systems with many particles (PhD 1). The focus is on
+ * _Quantum Computing_ for studies of quantum mechanical systems with many particles (_PhD 1_). The focus is on
   * Subatomic matter, in particular properties of dense matter
   * Atomic and molecular physics, with applications to Materials Science and Life Science
- * _Machine Learning_ focusing on the training of potentials for Molecular dynamics studies of large numbers of interacting particles (PhD 2), with applications to systems in  
+ * _Machine Learning_ focusing on the training of potentials for Molecular dynamics studies of large numbers of interacting particles (_PhD 2_), with applications to systems in  
   * Condensed Matter Physics,
   * Materials Science and 
   * Life Science
