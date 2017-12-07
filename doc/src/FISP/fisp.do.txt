@@ -99,7 +99,7 @@ o The problems we target satisfy the dual criteria of being integral to the fund
 !eblock
 
 !split
-=== Long-term perspective, synergies and impact ===
+=====  Long-term perspective, synergies and impact =====
 !bblock
 
 * The long-term perspective for this application is to lay the foundation for a new center of excellence in research _Computing Across the Disciplines_
